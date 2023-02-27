@@ -14,14 +14,14 @@ Inbuilt library dlib is used which is based on SVM face detector.
 ### Face Warping using Triangulation and Thin Plate Spline
 <img src="https://github.com/naitri/FaceSwap/blob/main/git_images/tps.png"  align="center" alt="Undistorted" width="400"/>
   
-Instructions to run FaceSwap using Traditional approach (triangulation & Thin Plate Spline):
+## Instructions to run FaceSwap using Traditional approach (triangulation & Thin Plate Spline):
 1. Set input1 and input 2 as the required source and destination paths in Wrapper.py main. Note:
  	- If the two inputs are the same video, set input1 as video path and input2 as None
  	- If one input is a video and the other an image, set input1 as video path and input2 as image path
 2. Set method as "TRI" for triangulation or "TPS" for Thin Plate Spline algorithms respectively.
 3. Run Wrapper.py using `python3 Wrapper.py`
 
-Instructions to run PRNet:
+## Instructions to run PRNet:
 1. Download the model weight from https://drive.google.com/file/d/1UoE-XuW1SDLUjZmJPkIZ1MLxvQFgmTFH/view
 2. Place the file in ./PRNet/Data/net-data
 3. Create a conda environment or venv with python2.7, tf 1.13 (gpu version), cv2 4.2.1, numpy and dlib.
